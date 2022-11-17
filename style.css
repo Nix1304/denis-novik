@@ -197,9 +197,11 @@ body {
 }
 .footer__icons {
     margin-bottom: 45px;
+    max-width: 342px;
+    display: flex;
 }
 .footer__icon {
-    margin: 0 30px;
+    margin: 0 auto;
 }
 .footer__stext {
     color: #828282;
