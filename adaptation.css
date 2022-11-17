@@ -1,0 +1,27 @@
+@media screen and (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .promo__text {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 26px;
+    }
+
+    .promo__lang {
+        display: none;
+    }
+
+    .skills__list {
+        flex-direction: column;
+    }
+
+    .skills__item {
+        margin: 80px 104px;
+    }
+}

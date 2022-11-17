@@ -1,0 +1,208 @@
+@import url('./fonts/Gilroy/Gilroy.css');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.block-wide {
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: #828282 1px solid;
+    padding: 32px 0;
+}
+
+.nav__link {
+    color: #828282;
+}
+
+.nav__link--selected {
+    color: #000000;
+}
+
+/* Promo */
+.promo {
+    margin-bottom: 104px;
+}
+.promo__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px 0 50px;
+}
+.promo__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo__name {
+    font-size: 48px;
+    font-weight: bold;
+}
+.promo__age {
+    font-size: 18px;
+    font-weight: 500;
+}
+.promo__lang {
+    transform: rotate(-90deg) translateX(24px);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.promo__image {
+    width: 100%;
+}
+
+/* About Me */
+.about-me {
+    background-color: #F6F6F6;
+    padding: 120px 0 107px;
+    width: 100%;
+    display: flex;
+}
+.about-me__content {
+    margin: 0 auto;
+}
+.about-me__title {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.about-me__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.about-me__line {
+    display: flex;
+    flex-direction: column;
+}
+.about-me__line:not(:last-child) {
+    margin-bottom: 22px;
+}
+
+/* Skills */
+.skills {
+    padding: 91px 0 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__title {
+    margin-bottom: 69px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.skills__desc {
+    margin-bottom: 82px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.skills__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Portfolio */
+.portfolio {
+    margin: 112px auto 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.portfolio__title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 47px;
+}
+
+.portfolio__list {
+    width: 100%;
+}
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio__item:not(:last-child) {
+    margin-bottom: 100px;
+}
+.portfolio__image {
+    margin-bottom: 44px;
+    width: 100%;
+}
+.portfolio__text {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    padding: 114px 0 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__title {
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.footer__text {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer__button {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 13px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__social {
+    margin-top: 85px;
+}
+.footer__icons {
+    margin-bottom: 45px;
+}
+.footer__icon {
+    margin: 0 30px;
+}
+.footer__stext {
+    color: #828282;
+    font-weight: 500;
+    text-align: center;
+}
